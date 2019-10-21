@@ -1,0 +1,129 @@
+/* General font styles */
+
+/* h1 {
+    font: bold 2em Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background-color: #00a300;
+    border-radius: 1px;
+    padding: 10px;
+} */
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Anton', sans-serif;
+            overflow-x: hidden;
+            background: white;
+            color: #424242;
+        }
+
+        i{
+            font-size: 4em;
+        }
+
+        h2{
+            font-size: 50px;
+        }
+
+        .header {
+            background: #00a300;
+            padding: 16px 16px;
+        }
+
+        .margin {
+            margin-top: 1.5em;
+        }
+
+
+/* Structure */
+
+.container {
+    /* min-height: 100px; */
+    /* width: 560px;
+    min-height: 500px;
+    background: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 0 auto;
+    padding: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 1px 1px 10px #000;
+    -webkit-box-shadow: 1px 1px 5px #000;
+    box-shadow: 1px 1px 10px #000; */
+}
+
+/* @media screen and (max-width: 320px) {
+    #container {
+        width: 280px;
+        padding: 10px;
+    }
+} */
+
+button {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#error {
+    color: #f00;
+}
+
+/* .footer {
+    border-top: 1px solid #000;
+    margin-top: 30px;
+    padding-top: 10px;
+} */
+
+#show-picture {
+    width: 50%;
+    height: 50%;
+    /* top: 40%;
+    left: 20%;
+    padding: 10%; */
+}
+
+#save--image {
+    width: 90px;
+    font-size: 16px;
+    border-radius: 6px; 
+    text-align: center;
+    bottom: 50px;
+    background-color: lightgreen;
+}
+
+#upload--image{
+    width: 90px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    bottom: 50px;
+    background-color: lightgreen;
+}
+
+#take-picture {
+    /* position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 5px;
+    text-align: center; */
+}
